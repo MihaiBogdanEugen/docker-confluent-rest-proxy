@@ -29,5 +29,4 @@ RUN echo "===> installing ${COMPONENT}..." \
     && wget "https://raw.githubusercontent.com/confluentinc/cp-docker-images/3.3.x-quickstart-fix/debian/kafka-rest/include/etc/confluent/docker/kafka-rest.properties.template" -O "/etc/confluent/docker/kafka-rest.properties.template" \
     && echo "979116770bdfa471b5276edf2b4a1666f7a14f3e089ec8d7a3ad0051ef05e212" "/etc/confluent/docker/kafka-rest.properties.template" | sha256sum -c -
 
-
 CMD ["/etc/confluent/docker/run"]
