@@ -2,22 +2,10 @@
 
 ### Supported tags and respective Dockerfile links:
 
-* ```jesse-slim-8u144-2.11.11-3.2``` _\([jesse-slim-8u144-2.11.11-3.2/Dockerfile]\)_
-[![](https://images.microbadger.com/badges/image/mbe1224/confluent-osp-rest-proxy:jesse-slim-8u144-2.11.11-3.2.svg)](https://microbadger.com/images/mbe1224/confluent-osp-rest-proxy:jesse-slim-8u144-2.11.11-3.2 "")
-* ```stretch-slim-8u144-2.11.11-3.2``` _\([stretch-slim-8u144-2.11.11-3.2/Dockerfile]\)_
-[![](https://images.microbadger.com/badges/image/mbe1224/confluent-osp-rest-proxy:stretch-slim-8u144-2.11.11-3.2.svg)](https://microbadger.com/images/mbe1224/confluent-osp-rest-proxy:stretch-slim-8u144-2.11.11-3.2 "")
-* ```jesse-slim-8u144-2.12.3-3.2``` _\([jesse-slim-8u144-2.12.3-3.2/Dockerfile]\)_
-[![](https://images.microbadger.com/badges/image/mbe1224/confluent-osp-rest-proxy:jesse-slim-8u144-2.12.3-3.2.svg)](https://microbadger.com/images/mbe1224/confluent-osp-rest-proxy:jesse-slim-8u144-2.12.3-3.2 "")
-* ```stretch-slim-8u144-2.12.3-3.2```, _\([stretch-slim-8u144-2.12.3-3.2/Dockerfile]\)_ 
-[![](https://images.microbadger.com/badges/image/mbe1224/confluent-osp-rest-proxy:stretch-slim-8u144-2.12.3-3.2.svg)](https://microbadger.com/images/mbe1224/confluent-osp-rest-proxy:stretch-slim-8u144-2.12.3-3.2 "")
-* ```jesse-slim-8u144-2.11.11-3.3``` _\([jesse-slim-8u144-2.11.11-3.3/Dockerfile]\)_
-[![](https://images.microbadger.com/badges/image/mbe1224/confluent-osp-rest-proxy:jesse-slim-8u144-2.11.11-3.3.svg)](https://microbadger.com/images/mbe1224/confluent-osp-rest-proxy:jesse-slim-8u144-2.11.11-3.3 "")
-* ```stretch-slim-8u144-2.11.11-3.3``` _\([stretch-slim-8u144-2.11.11-3.3/Dockerfile]\)_
-[![](https://images.microbadger.com/badges/image/mbe1224/confluent-osp-rest-proxy:stretch-slim-8u144-2.11.11-3.3.svg)](https://microbadger.com/images/mbe1224/confluent-osp-rest-proxy:stretch-slim-8u144-2.11.11-3.3 "")
-* ```jesse-slim-8u144-2.12.3-3.3``` _\([jesse-slim-8u144-2.12.3-3.3/Dockerfile]\)_
-[![](https://images.microbadger.com/badges/image/mbe1224/confluent-osp-rest-proxy:jesse-slim-8u144-2.12.3-3.3.svg)](https://microbadger.com/images/mbe1224/confluent-osp-rest-proxy:jesse-slim-8u144-2.12.3-3.3 "")
-* ```stretch-slim-8u144-2.12.3-3.3```, _\([stretch-slim-8u144-2.12.3-3.3/Dockerfile]\)_ 
-[![](https://images.microbadger.com/badges/image/mbe1224/confluent-osp-rest-proxy:stretch-slim-8u144-2.12.3-3.3.svg)](https://microbadger.com/images/mbe1224/confluent-osp-rest-proxy:stretch-slim-8u144-2.12.3-3.3 "")
+* ```jesse-slim-8u144-2.11.11-3.2.2``` _\([jesse-slim-8u144-2.11.11-3.2.2/Dockerfile]\)_
+[![](https://images.microbadger.com/badges/image/mbe1224/confluent-osp-rest-proxy:jesse-slim-8u144-2.11.11-3.2.2.svg)](https://microbadger.com/images/mbe1224/confluent-osp-rest-proxy:jesse-slim-8u144-2.11.11-3.2.2 "")
+* ```jesse-slim-8u144-2.11.11-3.3.0``` _\([jesse-slim-8u144-2.11.11-3.3.0/Dockerfile]\)_
+[![](https://images.microbadger.com/badges/image/mbe1224/confluent-osp-rest-proxy:jesse-slim-8u144-2.11.11-3.3.0.svg)](https://microbadger.com/images/mbe1224/confluent-osp-rest-proxy:jesse-slim-8u144-2.11.11-3.3.0 "")
 
 #### All tag names follow the naming convention:
 
