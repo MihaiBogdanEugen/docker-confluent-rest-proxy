@@ -32,13 +32,7 @@ docker build -t mbe1224/confluent-osp-rest-proxy .
 * [Apache License]
 * [Oracle Binary Code License Agreement]
 
-   [jesse-slim-8u144-2.11.11-3.2/Dockerfile]: <https://github.com/MihaiBogdanEugen/confluent-osp-rest-proxy/blob/jesse-slim-8u144-2.11.11-3.2/Dockerfile>
-   [stretch-slim-8u144-2.11.11-3.2/Dockerfile]: <https://github.com/MihaiBogdanEugen/confluent-osp-rest-proxy/blob/stretch-slim-8u144-2.11.11-3.2/Dockerfile>
-   [jesse-slim-8u144-2.12.3-3.2/Dockerfile]: <https://github.com/MihaiBogdanEugen/confluent-osp-rest-proxy/blob/jesse-slim-8u144-2.12.3-3.2/Dockerfile>
-   [stretch-slim-8u144-2.12.3-3.2/Dockerfile]: <https://github.com/MihaiBogdanEugen/confluent-osp-rest-proxy/blob/stretch-slim-8u144-2.12.3-3.2/Dockerfile>
-   [jesse-slim-8u144-2.11.11-3.3/Dockerfile]: <https://github.com/MihaiBogdanEugen/confluent-osp-rest-proxy/blob/jesse-slim-8u144-2.11.11-3.3/Dockerfile>
-   [stretch-slim-8u144-2.11.11-3.3/Dockerfile]: <https://github.com/MihaiBogdanEugen/confluent-osp-rest-proxy/blob/stretch-slim-8u144-2.11.11-3.3/Dockerfile>
-   [jesse-slim-8u144-2.12.3-3.3/Dockerfile]: <https://github.com/MihaiBogdanEugen/confluent-osp-rest-proxy/blob/jesse-slim-8u144-2.12.3-3.3/Dockerfile>
-   [stretch-slim-8u144-2.12.3-3.3/Dockerfile]: <https://github.com/MihaiBogdanEugen/confluent-osp-rest-proxy/blob/stretch-slim-8u144-2.12.3-3.3/Dockerfile>
+   [jesse-slim-8u144-2.11.11-3.2.2/Dockerfile]: <https://github.com/MihaiBogdanEugen/confluent-osp-rest-proxy/blob/jesse-slim-8u144-2.11.11-3.2.2/Dockerfile>
+   [jesse-slim-8u144-2.11.11-3.3.0/Dockerfile]: <https://github.com/MihaiBogdanEugen/confluent-osp-rest-proxy/blob/jesse-slim-8u144-2.11.11-3.3.0/Dockerfile>
    [Apache License]: <https://raw.githubusercontent.com/MihaiBogdanEugen/confluent-osp-rest-proxy/master/LICENSE>
    [Oracle Binary Code License Agreement]: <https://raw.githubusercontent.com/MihaiBogdanEugen/confluent-osp-rest-proxy/master/Oracle_Binary_Code_License_Agreement%20for%20the%20Java%20SE%20Platform_Products_and_JavaFX>
