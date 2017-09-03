@@ -1,7 +1,6 @@
 FROM mbe1224/confluent-osp-base:jesse-slim-8u144-2.11.11-3.2.2
 
-# Override confluent version because confluent-schema-registry:3.2.2-1 was never released
-ENV CONFLUENT_VERSION="3.2.1"
+ENV CONFLUENT_DEB_VERSION=2
 
 ENV COMPONENT=kafka-rest
 
