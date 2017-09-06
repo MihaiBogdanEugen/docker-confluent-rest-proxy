@@ -25,7 +25,7 @@
 - Utility scripts added:
     - [Confluent utility belt script ('cub')]
     - [Docker utility belt script ('dub')]
-- [Confluent Schema Registry] added
+- [Confluent REST Proxy] added
 
 #### More details: ####
 
@@ -35,8 +35,8 @@ Therefore, it follows the same structure as the one from the original [repositor
 - tags ```jesse-slim-8u144-2.11.11-3.3.0``` and```latest``` follow branch [3.3.x]
 
 
-Apart of the base image ([confluent-osp-base]), it has [Schema Registry] added on top of it, installed using the following Confluent Debian package:
-- ```confluent-schema-registry-2.11```
+Apart of the base image ([confluent-osp-base]), it has [REST Proxy] added on top of it, installed using the following Confluent Debian package:
+- ```confluent-kafka-rest-2.11```
 
 ### Usage: ###
 
