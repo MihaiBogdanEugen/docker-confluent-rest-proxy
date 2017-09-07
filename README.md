@@ -71,10 +71,9 @@ One can use the following environment variables for configuring the ZooKeeper no
 | 7 | KAFKA\_REST\_LISTENERS | 8082 | Port for incomming connections | - |
 | 8 | KAFKA\_REST\_LOG4J\_LOGGERS | - | - | - |
 | 9 | KAFKA\_REST\_LOG4J\_ROOT\_LOGLEVEL | INFO | - | - |
-| 10 | KAFKA\_REST\_PORT | - | Port for incomming connections | Deprecated, use KAFKA\_REST\_LISTENERS instead |
-| 11 | KAFKA\_REST\_ZOOKEEPER\_CONNECT | - | Specifies the ZooKeeper connection string in the form hostname:port where host and port are the host and port of a ZooKeeper server | To allow connecting through other ZooKeeper nodes when that ZooKeeper machine is down you can also specify multiple hosts in the form hostname1:port1,hostname2:port2,hostname3:port3 |
+| 10 | KAFKA\_REST\_ZOOKEEPER\_CONNECT | - | Specifies the ZooKeeper connection string in the form hostname:port where host and port are the host and port of a ZooKeeper server | To allow connecting through other ZooKeeper nodes when that ZooKeeper machine is down you can also specify multiple hosts in the form hostname1:port1,hostname2:port2,hostname3:port3 |
 
-Apart from these, one can use any of the properties specified in the [Configuration Options] by replacing "." with "\_" and appending "KAFKA\_REST\_" before the property name. For example, instead of ```schema.registry.url``` use ```KAFKA_REST_SCHEMA_REGISTRY_URL```.
+Moreover, one can use any of the properties specified in the [Configuration Options] by replacing "." with "\_" and appending "KAFKA\_REST\_" before the property name. For example, instead of ```schema.registry.url``` use ```KAFKA_REST_SCHEMA_REGISTRY_URL```.
 
 ### Dual licensed under: ###
 
