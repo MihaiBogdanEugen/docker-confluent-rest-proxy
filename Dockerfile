@@ -1,8 +1,7 @@
-FROM mbe1224/confluent-osp-base:jesse-slim-8u144-2.11.11-3.3.0
+FROM mbe1224/confluent-osp-base:jesse-slim-8u144-2.11.11-3.2.2
 
 ENV COMPONENT=kafka-rest
 
-# default listener
 EXPOSE 8082
 
 RUN echo "===> installing ${COMPONENT}..." \
@@ -12,14 +11,15 @@ RUN echo "===> installing ${COMPONENT}..." \
     && echo "===> Setting up ${COMPONENT} dirs" \
     && chmod -R ag+w /etc/${COMPONENT} \
     && mkdir -p /etc/confluent/docker \
-    && wget "https://raw.githubusercontent.com/confluentinc/cp-docker-images/71fabd107216be2be86aea2b95371cdea4abde95/debian/kafka-rest/include/etc/confluent/docker/admin.properties.template" -O "/etc/confluent/docker/admin.properties.template" \
-    && wget "https://raw.githubusercontent.com/confluentinc/cp-docker-images/71fabd107216be2be86aea2b95371cdea4abde95/debian/kafka-rest/include/etc/confluent/docker/apply-mesos-overrides" -O "/etc/confluent/docker/apply-mesos-overrides" \
-    && wget "https://raw.githubusercontent.com/confluentinc/cp-docker-images/71fabd107216be2be86aea2b95371cdea4abde95/debian/kafka-rest/include/etc/confluent/docker/configure" -O "/etc/confluent/docker/configure" \
-    && wget "https://raw.githubusercontent.com/confluentinc/cp-docker-images/71fabd107216be2be86aea2b95371cdea4abde95/debian/kafka-rest/include/etc/confluent/docker/ensure" -O "/etc/confluent/docker/ensure" \
-    && wget "https://raw.githubusercontent.com/confluentinc/cp-docker-images/71fabd107216be2be86aea2b95371cdea4abde95/debian/kafka-rest/include/etc/confluent/docker/launch" -O "/etc/confluent/docker/launch" \
-    && wget "https://raw.githubusercontent.com/confluentinc/cp-docker-images/71fabd107216be2be86aea2b95371cdea4abde95/debian/kafka-rest/include/etc/confluent/docker/log4j.properties.template" -O "/etc/confluent/docker/log4j.properties.template" \
-    && wget "https://raw.githubusercontent.com/confluentinc/cp-docker-images/71fabd107216be2be86aea2b95371cdea4abde95/debian/kafka-rest/include/etc/confluent/docker/run" -O "/etc/confluent/docker/run" \
-    && wget "https://raw.githubusercontent.com/confluentinc/cp-docker-images/71fabd107216be2be86aea2b95371cdea4abde95/debian/kafka-rest/include/etc/confluent/docker/kafka-rest.properties.template" -O "/etc/confluent/docker/kafka-rest.properties.template" \
+    && wget "https://raw.githubusercontent.com/confluentinc/cp-docker-images/3c2c457e275a66f327868466dfa000a8ee3c0114/debian/kafka-rest/include/etc/confluent/docker/admin.properties.template" -O "/etc/confluent/docker/admin.properties.template" \
+    && wget "https://raw.githubusercontent.com/confluentinc/cp-docker-images/3c2c457e275a66f327868466dfa000a8ee3c0114/debian/kafka-rest/include/etc/confluent/docker/apply-mesos-overrides" -O "/etc/confluent/docker/apply-mesos-overrides" \
+    && wget "https://raw.githubusercontent.com/confluentinc/cp-docker-images/3c2c457e275a66f327868466dfa000a8ee3c0114/debian/kafka-rest/include/etc/confluent/docker/configure" -O "/etc/confluent/docker/configure" \
+    && wget "https://raw.githubusercontent.com/confluentinc/cp-docker-images/3c2c457e275a66f327868466dfa000a8ee3c0114/debian/kafka-rest/include/etc/confluent/docker/ensure" -O "/etc/confluent/docker/ensure" \
+    && wget "https://raw.githubusercontent.com/confluentinc/cp-docker-images/3c2c457e275a66f327868466dfa000a8ee3c0114/debian/kafka-rest/include/etc/confluent/docker/launch" -O "/etc/confluent/docker/launch" \
+    && wget "https://raw.githubusercontent.com/confluentinc/cp-docker-images/3c2c457e275a66f327868466dfa000a8ee3c0114/debian/kafka-rest/include/etc/confluent/docker/log4j.properties.template" -O "/etc/confluent/docker/log4j.properties.template" \
+    && wget "https://raw.githubusercontent.com/confluentinc/cp-docker-images/3c2c457e275a66f327868466dfa000a8ee3c0114/debian/kafka-rest/include/etc/confluent/docker/run" -O "/etc/confluent/docker/run" \
+    && wget "https://raw.githubusercontent.com/confluentinc/cp-docker-images/3c2c457e275a66f327868466dfa000a8ee3c0114/debian/kafka-rest/include/etc/confluent/docker/kafka-rest.properties.template" -O "/etc/confluent/docker/kafka-rest.properties.template" \
+    && chmod a+x "/etc/confluent/docker/apply-mesos-overrides" \
     && chmod a+x "/etc/confluent/docker/configure" \
     && chmod a+x "/etc/confluent/docker/ensure" \
     && chmod a+x "/etc/confluent/docker/launch" \
