@@ -23,7 +23,7 @@
 - SHA 256 sum checks for all downloads
 - JAVA\_HOME and SCALA\_HOME environment variables set up
 - Utility scripts added:
-    - [Confluent utility belt script ('cub')]
+    - [Confluent utility belt script ('cub')] - a Python CLI for a Confluent tool called [docker-utils]
     - [Docker utility belt script ('dub')]
 - [Confluent REST Proxy] added
 
@@ -80,6 +80,7 @@ Moreover, one can use any of the properties specified in the [Configuration Opti
 * [Apache License]
 * [Oracle Binary Code License Agreement]
 
+   [docker-utils]: <https://github.com/confluentinc/cp-docker-images/tree/master/java>
    [Confluent Open Source Platform]: <https://www.confluent.io/product/confluent-open-source/>
    [REST Proxy]: <http://docs.confluent.io/current/kafka-rest/docs/index.html>   
    [Confluent REST Proxy]: <http://docs.confluent.io/current/kafka-rest/docs/index.html>   
