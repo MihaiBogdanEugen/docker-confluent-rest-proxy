@@ -89,5 +89,5 @@ Moreover, one can use any of the properties specified in the [Configuration Opti
    [3.3.x]: <https://github.com/confluentinc/cp-docker-images/tree/3.3.x>   
    [confluent-platform-base]: <https://hub.docker.com/r/mbe1224/confluent-platform-base/>
    [Configuration Options]: <http://docs.confluent.io/current/kafka-rest/docs/config.html>
-   [MIT License]: <https://raw.githubusercontent.com/MihaiBogdanEugen/confluent-platform-rest-proxy/master/LICENSE>
-   [Oracle Binary Code License Agreement]: <https://raw.githubusercontent.com/MihaiBogdanEugen/confluent-platform-rest-proxy/master/Oracle_Binary_Code_License_Agreement%20for%20the%20Java%20SE%20Platform_Products_and_JavaFX>
+   [MIT License]: <https://raw.githubusercontent.com/MihaiBogdanEugen/docker-confluent-platform-rest-proxy/master/LICENSE>
+   [Oracle Binary Code License Agreement]: <https://raw.githubusercontent.com/MihaiBogdanEugen/docker-confluent-platform-rest-proxy/master/Oracle_Binary_Code_License_Agreement%20for%20the%20Java%20SE%20Platform_Products_and_JavaFX>
