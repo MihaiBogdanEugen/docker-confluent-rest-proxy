@@ -3,9 +3,9 @@
 ### Supported tags and respective Dockerfile links: ###
 
 * ```3.2.2``` _\([3.2.2/Dockerfile]\)_
-[![](https://images.microbadger.com/badges/image/mbe1224/confluent-platform-rest-proxy:3.2.2.svg)](https://microbadger.com/images/mbe1224/confluent-platform-rest-proxy:3.2.2 "")
+[![](https://images.microbadger.com/badges/image/mbe1224/confluent-rest-proxy:3.2.2.svg)](https://microbadger.com/images/mbe1224/confluent-rest-proxy:3.2.2 "")
 * ```3.3.0```, ```latest``` _\([3.3.0/Dockerfile]\)_
-[![](https://images.microbadger.com/badges/image/mbe1224/confluent-platform-rest-proxy:3.3.0.svg)](https://microbadger.com/images/mbe1224/confluent-platform-rest-proxy:3.3.0 "")
+[![](https://images.microbadger.com/badges/image/mbe1224/confluent-rest-proxy:3.3.0.svg)](https://microbadger.com/images/mbe1224/confluent-rest-proxy:3.3.0 "")
 
 *All tag names follow the naming convention of the [Confluent Open Source Platform]*
 
@@ -30,14 +30,14 @@ Therefore, it follows the same structure as the one from the original [repositor
 - tags ```3.3.0``` and```latest``` follow branch [3.3.x]
 
 
-Apart of the base image ([confluent-platform-base]), it has [REST Proxy] added on top of it, installed using the following Confluent Debian package:
+Apart of the base image ([confluent-base]), it has [REST Proxy] added on top of it, installed using the following Confluent Debian package:
 - ```confluent-kafka-rest-2.11```
 
 ### Usage: ###
 
 Build the image
 ```shell
-docker build -t mbe1224/confluent-platform-rest-proxy /3.3.0/
+docker build -t mbe1224/confluent-rest-proxy /3.3.0/
 ```
 
 Run the container
@@ -48,7 +48,7 @@ docker run -d \
     -e KAFKA_REST_ZOOKEEPER_CONNECT=localhost:32181 \
     -e KAFKA_REST_LISTENERS=http://localhost:8082 \
     -e KAFKA_REST_SCHEMA_REGISTRY_URL=http://localhost:8081 \
-    mbe1224/confluent-platform-rest-proxy
+    mbe1224/confluent-rest-proxy
 ```
 
 ### Environment variables: ###
@@ -80,14 +80,14 @@ Moreover, one can use any of the properties specified in the [Configuration Opti
    [REST Proxy]: <http://docs.confluent.io/current/kafka-rest/docs/index.html>   
    [Confluent REST Proxy]: <http://docs.confluent.io/current/kafka-rest/docs/index.html>   
    [Oracle JDK]: <http://www.oracle.com/technetwork/java/javase/downloads/index.html>
-   [3.2.2/Dockerfile]: <https://github.com/MihaiBogdanEugen/docker-confluent-platform-rest-proxy/blob/master/3.2.2/Dockerfile>
-   [3.3.0/Dockerfile]: <https://github.com/MihaiBogdanEugen/docker-confluent-platform-rest-proxy/blob/master/3.3.0/Dockerfile>
+   [3.2.2/Dockerfile]: <https://github.com/MihaiBogdanEugen/docker-confluent-rest-proxy/blob/master/3.2.2/Dockerfile>
+   [3.3.0/Dockerfile]: <https://github.com/MihaiBogdanEugen/docker-confluent-rest-proxy/blob/master/3.3.0/Dockerfile>
    [Confluent utility belt script ('cub')]: <https://raw.githubusercontent.com/confluentinc/cp-docker-images/df0091f5437113d2764cabb7433eee25fba6a4b6/debian/base/include/cub>
    [Docker utility belt script ('dub')]: <https://raw.githubusercontent.com/confluentinc/cp-docker-images/df0091f5437113d2764cabb7433eee25fba6a4b6/debian/base/include/dub>  
    [repository]: <https://github.com/confluentinc/cp-docker-images>
    [3.2.x]: <https://github.com/confluentinc/cp-docker-images/tree/3.2.x>
    [3.3.x]: <https://github.com/confluentinc/cp-docker-images/tree/3.3.x>   
-   [confluent-platform-base]: <https://hub.docker.com/r/mbe1224/confluent-platform-base/>
+   [confluent-base]: <https://hub.docker.com/r/mbe1224/confluent-base/>
    [Configuration Options]: <http://docs.confluent.io/current/kafka-rest/docs/config.html>
-   [MIT License]: <https://raw.githubusercontent.com/MihaiBogdanEugen/docker-confluent-platform-rest-proxy/master/LICENSE>
-   [Oracle Binary Code License Agreement]: <https://raw.githubusercontent.com/MihaiBogdanEugen/docker-confluent-platform-rest-proxy/master/Oracle_Binary_Code_License_Agreement%20for%20the%20Java%20SE%20Platform_Products_and_JavaFX>
+   [MIT License]: <https://raw.githubusercontent.com/MihaiBogdanEugen/docker-confluent-rest-proxy/master/LICENSE>
+   [Oracle Binary Code License Agreement]: <https://raw.githubusercontent.com/MihaiBogdanEugen/docker-confluent-rest-proxy/master/Oracle_Binary_Code_License_Agreement%20for%20the%20Java%20SE%20Platform_Products_and_JavaFX>
